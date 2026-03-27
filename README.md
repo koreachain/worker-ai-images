@@ -4,27 +4,6 @@
 
 <!-- dash-content-start -->
 
-Generate images based on text prompts using [Workers AI](https://developers.cloudflare.com/workers-ai/). In this example, going to the website will generate an image from the prompt "cyberpunk cat" using the `@cf/stabilityai/stable-diffusion-xl-base-1.0` model. Be patience while it takes up to several seconds to generate!
+Generate images based on text prompts using `@cf/stabilityai/stable-diffusion-xl-base-1.0`.
 
 <!-- dash-content-end -->
-
-## Getting Started
-
-Outside of this repo, you can start a new project with this template using [C3](https://developers.cloudflare.com/pages/get-started/c3/) (the `create-cloudflare` CLI):
-
-```bash
-npm create cloudflare@latest -- --template=cloudflare/templates/worker-generative-ai
-```
-
-A live public deployment of this template is available at [https://worker-generative-ai.templates.workers.dev](https://worker-generative-ai.templates.workers.dev)
-
-## Setup Steps
-
-1. Install the project dependencies with a package manager of your choice:
-   ```bash
-   npm install
-   ```
-2. Deploy the project!
-   ```bash
-   npx wrangler deploy
-   ```
